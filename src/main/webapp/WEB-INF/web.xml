@@ -17,4 +17,9 @@
         <servlet-name>halo-servlet</servlet-name>
         <url-pattern>/selamat-datang</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>servlet-annotation</servlet-name>
+        <url-pattern>/selamat-siang</url-pattern>
+    </servlet-mapping>
 </web-app>
+
