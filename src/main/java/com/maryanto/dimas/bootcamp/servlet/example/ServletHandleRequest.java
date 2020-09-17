@@ -1,18 +1,17 @@
 package com.maryanto.dimas.bootcamp.servlet.example;
 
-import lombok.extern.slf4j.Slf4j;
-
+import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @WebServlet(name = "servlet-handle-request", urlPatterns = {"/kirim"})
 public class ServletHandleRequest extends HttpServlet {
-
+    
     //language=HTML
     String html = "<!doctype html>\n" +
             "<html lang='en'>\n" +
