@@ -1,4 +1,4 @@
-package com.maryanto.dimas.bootcamp.servlet.listener;
+package com.maryanto.dimas.bootcamp.servlet.listener.servlet;
 
 import com.maryanto.dimas.bootcamp.conf.DatabaseService;
 import lombok.extern.slf4j.Slf4j;
