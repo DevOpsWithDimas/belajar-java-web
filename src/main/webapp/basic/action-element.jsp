@@ -2,7 +2,7 @@
 
 <%@ page import="java.util.Date" %>
 <%@ page import="java.math.BigDecimal" %>
-<jsp:useBean id="mhs" class="com.maryanto.dimas.bootcamp.Mahasiswa">
+<jsp:useBean id="mhs" class="com.maryanto.dimas.bootcamp.model.Mahasiswa">
     <jsp:setProperty name="mhs" property="namaLengkap" value="Dimas Maryanto"/>
     <jsp:setProperty name="mhs" property="tanggalLahir" value="<%= new Date(725821200000L) %>"/>
     <jsp:setProperty name="mhs" property="saldo" value="<%= new BigDecimal(1000000) %>"/>
