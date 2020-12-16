@@ -16,13 +16,13 @@ public class MahasiswaDummyServiceImpl implements MahasiswaService {
                         .namaLengkap("Dimas Maryanto")
                         .saldo(new BigDecimal(10000000))
                         .tanggalLahir(new Date(731091600000L))
-                        .aktif(false)
+                        .aktif(true)
                         .build(),
                 Mahasiswa.builder()
                         .namaLengkap("Muhamad Yusuf")
                         .saldo(new BigDecimal(1000000))
                         .tanggalLahir(new Date(699555600000L))
-                        .aktif(false)
+                        .aktif(true)
                         .build()
         );
     }
