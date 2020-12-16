@@ -14,7 +14,7 @@ public class MahasiswaDummyServiceImpl implements MahasiswaService {
         return Arrays.asList(
                 Mahasiswa.builder()
                         .namaLengkap("Dimas Maryanto")
-                        .saldo(new BigDecimal(10000000))
+                        .saldo(new BigDecimal(0))
                         .tanggalLahir(new Date(731091600000L))
                         .aktif(true)
                         .build(),
